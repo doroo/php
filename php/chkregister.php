@@ -9,33 +9,46 @@
 //	exit();
 //}
 require_once('connection.php');
-
-$action = htmlspecialchars($_GET['action']);
-$username = htmlspecialchars($_GET['username']);
-
-if($action == "validateUsername")
+Run();
+function Run()
 {
-	if(checkuser($username))
+	if(!isset($_GET["action"]) || empty($_GET['action'])
+			|| !isset($_GET["username"]) || empty($_GET['username'])){
+		echo "NotParam";
+		exit();
+	}
+	$action = htmlspecialchars($_GET['action']);
+	$username = htmlspecialchars($_GET['username']);
+	
+	if($action == "validateUsername")
 	{
-		echo 'false';
+		try{
+			if(checkuser($username))
+			{
+				echo 'false';
+				exit();
+			}
+		}
+		catch(Exception $e)
+		{
+			echo "failed";
+			exit();
+		}
+		
+		echo 'true';
+		exit();
+	}
+	else {
+		echo 'true';
 		exit();
 	}
 }
-
-echo 'true';
-exit();
 
 function checkuser($name)
 {
 	$conn = ConnDB::getInstance();
 	$sql = "select username from userinfo where username='$name'";
-	try {
-		$rs = $conn->query($sql);
-	}
-	catch(Exception $e)
-	{
-		return "failed";
-	}
+	$rs = $conn->query($sql);
 	return $rs;
 }
 ?>

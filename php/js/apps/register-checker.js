@@ -8,7 +8,6 @@ define( ['apps/register-message', 'apps/register-checker-password'], function ( 
     var $form = $( '#fm1' );
     var $comp = $( '#CompName' );
     var $addr = $( '#CompAddr' );
-    var $cityname = $( '#cityname' );
     var $telp = $( '#Tel' );
 
     $user.bind( 'focus', function () {
@@ -53,6 +52,11 @@ define( ['apps/register-message', 'apps/register-checker-password'], function ( 
             else if(result == "failed")
         	{
                 mess.error( _this, 'mysqlTimeOutErr');
+                _this.isSubmit = false;
+        	}
+            else if(result == "NotParam")
+        	{
+            	mess.error( _this, 'NotParamErr');
                 _this.isSubmit = false;
         	}
             else{

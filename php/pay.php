@@ -15,7 +15,8 @@ $user = new UserInfo($username);
     <title></title>
 	<link href="css/public.css" type="text/css" rel="stylesheet" />
     <link href="css/center.css" type="text/css" rel="stylesheet" />
-     <link href="http://www.500cache.com/passport/css/new/center.css?v=20140820" type="text/css" rel="stylesheet">
+    <link href="css/centerV.css" type="text/css" rel="stylesheet" />
+     <!--<link href="http://www.500cache.com/passport/css/new/center.css?v=20140820" type="text/css" rel="stylesheet">-->
   </head>
   <body>
   <link href="css/button.css" rel="stylesheet" type="text/css" />

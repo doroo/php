@@ -52,5 +52,8 @@ State = {
   },
   mysqlTimeOutErr: {
 	    msg: '验证失败，请稍候再试！'
+  },
+  NotParamErr: {
+	  msg: '请输入有效参数！'
   }
 };

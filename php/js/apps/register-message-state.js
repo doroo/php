@@ -49,7 +49,7 @@ State = {
   },
   telephone: {
     msg: '电话号码格式不对！'
-  }
+  },
   mysqlTimeOutErr: {
 	    msg: '验证失败，请稍候再试！'
   }

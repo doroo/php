@@ -1,0 +1,148 @@
+﻿/*
+** Title: button style
+** Copyright: All Rights Reserrved
+** Company: SHENZHEN E-SUN SKY NET TECH CO.,LTD.   www.500wan.com
+** @author zhengds
+** @created date 2013-01-16
+**/
+
+/* 背景 */
+.btn_orange, .btn_blue, .btn_gray, .btn_yellowish, .btn_blue_l, .btn_disabled{background:url(../images/btn_bg.png) repeat-x; border: 0;  cursor:pointer; font-size:14px; display:inline-block; line-height:28px; line-height:30px\9; height:28px; text-align:center; font-weight:bold; padding:0; margin:0;}
+input.btn_orange, input.btn_blue, input.btn_blue_l, input.btn_gray, input.btn_yellowish{padding-bottom:3px; _padding-bottom:0; *line-height:26px; _line-height:23px; _padding-top:2px; *overflow:visible;}
+
+/* 橙色按钮 */
+a.btn_orange, .btn_orange{color:#fff; height:28px; border:1px solid #ff8326; width:78px; outline:0; text-decoration:none; background-position:0 0;}
+ /* 给button设置边框之后，IE6/IE7有1px的空白 */
+input.btn_orange{*background-color:#FD921F; height:30px; width:80px; }
+a.btn_orange:hover, .btn_orange:hover, input.btn_orange_hover{color:#fff; text-decoration:none; background-position:0 -28px; border-color:#f46800; *background-color:#F67A23;}
+
+/* 橙色24px高按钮 */
+a.btn_orange_h24, .btn_orange_h24{height: 22px; line-height:22px; line-height:24px\9; font-size:12px; width:48px; background-position:0 -56px;}
+input.btn_orange_h24{height:24px; width:50px; *line-height:20px; _line-height: 16px;}
+a.btn_orange_h24:hover, .btn_orange_h24:hover, .btn_orange_h24_hover{background-position:0 -78px;}
+
+/* 橙色18px高按钮 */
+a.btn_orange_h18, .btn_orange_h18{height: 16px; line-height:16px; line-height:18px\9; font-size:12px; width:33px; background-position:0 -100px; font-weight:normal;}
+input.btn_orange_h18{height:18px; width:35px; *line-height:14px; _line-height: 12px;}
+a.btn_orange_h18:hover, .btn_orange_h18:hover, .btn_orange_h18_hover{background-position:0 -116px;}
+
+/* 橙色33px高按钮 */
+a.btn_orange_h33, .btn_orange_h33{height: 31px; line-height:31px; line-height:31px\9; font-size:15px; width:138px; background-position:0 -769px;}
+input.btn_orange_h33{height:33px; width:140px; *line-height:29px; _line-height: 25px;}
+a.btn_orange_h33:hover, .btn_orange_h33:hover, .btn_orange_h24_hover{background-position:0 -802px;}
+
+/* 蓝色按钮 */
+a.btn_blue, .btn_blue{color:#fff; height:28px; border:1px solid #1762A0; width:78px; outline:0; text-decoration:none; background-position:0 -132px;}
+ /* 给button设置边框之后，IE6/IE7有1px的空白 */
+input.btn_blue{*background-color:#1C6DB0; height:30px; width:80px;}
+a.btn_blue:hover, .btn_blue:hover, input.btn_blue_hover{color:#fff; text-decoration:none; background-position:0 -160px; border-color:#0C4F86; *background-color:#105B98;}
+
+/* 蓝色24px高按钮 */
+a.btn_blue_h24, .btn_blue_h24{height: 22px; line-height:22px; line-height:24px\9; font-size:12px; width:48px; background-position:0 -188px;}
+input.btn_blue_h24{height:24px; width:50px; *line-height:20px; _line-height: 16px;}
+a.btn_blue_h24:hover, .btn_blue_h24:hover, .btn_blue_h24_hover{background-position:0 -210px;}
+
+/* 蓝色18px高按钮 */
+a.btn_blue_h18, .btn_blue_h18{height: 16px; line-height:16px; line-height:18px\9; font-size:12px; width:33px; background-position:0 -232px; font-weight:normal;}
+input.btn_blue_h18{height:18px; width:35px; *line-height:14px; _line-height: 12px;}
+a.btn_blue_h18:hover, .btn_blue_h18:hover, .btn_blue_h18_hover{background-position:0 -248px;}
+
+/* 淡黄色按钮 */
+a.btn_yellowish, .btn_yellowish{color:#cc3300; height:28px; border:1px solid #EEBD54; width:78px; outline:0; text-decoration:none; background-position:0 -264px;}
+ /* 给button设置边框之后，IE6/IE7有1px的空白 */
+input.btn_yellowish{*background-color:#FFF0CE; height:30px; width:80px;}
+a.btn_yellowish:hover, .btn_yellowish:hover, input.btn_yellowish_hover{color:#cc3300; text-decoration:none; background-position:0 -292px; border-color:#CE961B; *background-color:#FFEBBD;}
+
+/* 淡黄色24px高按钮 */
+a.btn_yellowish_h24, .btn_yellowish_h24{height: 22px; line-height:22px; line-height:24px\9; font-size:12px; width:48px; background-position:0 -320px;}
+input.btn_yellowish_h24{height:24px; width:50px; *line-height:20px; _line-height: 16px;}
+a.btn_yellowish_h24:hover, .btn_yellowish_h24:hover, .btn_yellowish_h24_hover{background-position:0 -342px;}
+
+/* 淡黄色18px高按钮 */
+a.btn_yellowish_h18, .btn_yellowish_h18{height: 16px; line-height:16px; line-height:18px\9; font-size:12px; width:33px; background-position:0 -364px; font-weight:normal;}
+input.btn_yellowish_h18{height:18px; width:35px; *line-height:14px; _line-height: 12px;}
+a.btn_yellowish_h18:hover, .btn_yellowish_h18:hover, .btn_yellowish_h18_hover{background-position:0 -380px;}
+
+/* 淡蓝色按钮 */
+a.btn_blue_l, .btn_blue_l{color:#0f3f94; height:28px; font-weight:normal; border:1px solid #79C1F3; width:78px; outline:0; text-decoration:none; background-position:0 -396px;}
+ /* 给button设置边框之后，IE6/IE7有1px的空白 */
+input.btn_blue_l{*background-color:#DFF0FF; height:30px; width:80px;}
+a.btn_blue_l:hover, .btn_blue_l:hover, input.btn_blue_l_hover{color:#0f3f94; text-decoration:none; background-position:0 -424px; border-color:#459FDC; *background-color:#D6ECFF;}
+
+/* 淡蓝色24px高按钮 */
+a.btn_blue_l_h24, .btn_blue_l_h24{height: 22px; line-height:22px; line-height:24px\9; font-size:12px; width:48px; background-position:0 -452px;}
+input.btn_blue_l_h24{height:24px; width:50px; *line-height:20px; _line-height: 16px;}
+a.btn_blue_l_h24:hover, .btn_blue_l_h24:hover, .btn_blue_l_h24_hover{background-position:0 -474px;}
+
+/* 淡蓝色18px高按钮 */
+a.btn_blue_l_h18, .btn_blue_l_h18{height: 16px; line-height:16px; line-height:18px\9; font-size:12px; width:33px; background-position:0 -496px; font-weight:normal;}
+input.btn_blue_l_h18{height:18px; width:35px; *line-height:14px; _line-height: 12px;}
+a.btn_blue_l_h18:hover, .btn_blue_l_h18:hover, .btn_blue_l_h18_hover{background-position:0 -512px;}
+
+/* 灰色按钮 */
+a.btn_gray, .btn_gray{color:#333; height:28px; border:1px solid #B7B7B7; width:78px; outline:0; text-decoration:none; background-position:0 -528px; font-weight:normal;}
+ /* 给button设置边框之后，IE6/IE7有1px的空白 */
+input.btn_gray{*background-color:#F5F5F5; height:30px; width:80px;}
+a.btn_gray:hover, .btn_gray:hover, input.btn_gray_hover{color:#333; text-decoration:none; background-position:0 -556px; border-color:#a6a6a6; *background-color:#F0F0F0;}
+
+/* 灰色24px高按钮 */
+a.btn_gray_h24, .btn_gray_h24{height: 22px; line-height:22px; line-height:24px\9; font-size:12px; width:48px; background-position:0 -584px;}
+input.btn_gray_h24{height:24px; width:50px; *line-height:20px; _line-height: 16px;}
+a.btn_gray_h24:hover, .btn_gray_h24:hover, .btn_gray_h24_hover{background-position:0 -606px;}
+
+/* 灰色18px高按钮 */
+a.btn_gray_h18, .btn_gray_h18{height: 16px; line-height:16px; line-height:18px\9; font-size:12px; width:33px; background-position:0 -628px; font-weight:normal;}
+input.btn_gray_h18{height:18px; width:35px; *line-height:14px; _line-height: 12px;}
+a.btn_gray_h18:hover, .btn_gray_h18:hover, .btn_gray_h18_hover{background-position:0 -644px;}
+
+
+/* 60px宽度 */
+.btn_w60, input.btn_w60, a.btn_w60{width:58px;}
+input.btn_w60{width:60px;}
+/* 70px宽度 */
+.btn_w70, input.btn_w70, a.btn_w70{width:68px;}
+input.btn_w70{width:70px;}
+/* 100px宽度 */
+.btn_w100, input.btn_w100, a.btn_w100{width:98px;}
+input.btn_w100{width:100px;}
+
+/* 自适应宽度 */
+.btn_width_auto, input.btn_width_auto, a.btn_width_auto{width:auto; padding-left:19px; padding-right:18px;}/* 超过4个汉字时加此样式 */
+input.btn_width_auto{*padding-left:18px; *padding-right:17px; -moz-padding-start:16px; -moz-padding-end:16px;}
+
+/* 字体加粗 */
+a.btn_font_bold, inbut.btn_font_bold{font-weight:bold;}
+
+/* 字体不加粗 */
+a.btn_font_normal, inbut.btn_font_normal{font-weight:normal;}
+
+/**
+ * 禁用按钮
+ * btn_disabled_h30  30px高按钮禁用样式
+ * btn_disabled_h24  24px高按钮禁用样式
+ * btn_disabled_h18  18px高按钮禁用样式
+**/
+a.btn_disabled_h33, a.btn_disabled_h33:hover, input.btn_disabled_h33, input.btn_disabled_h33:hover{background-position: 0 -835px; border-color:#AEAEAE; color:#fff; *background-color:#B1B1B1; cursor:default;}
+a.btn_disabled_h30, a.btn_disabled_h30:hover, input.btn_disabled_h30, input.btn_disabled_h30:hover{background-position: 0 -703px; border-color:#AEAEAE; color:#fff; *background-color:#B1B1B1;}
+a.btn_disabled_h24, a.btn_disabled_h24:hover, input.btn_disabled_h24, input.btn_disabled_h24:hover{background-position: 0 -731px; border-color:#AEAEAE; color:#fff; *background-color:#B1B1B1;}
+a.btn_disabled_h18, a.btn_disabled_h18:hover, input.btn_disabled_h18, input.btn_disabled_h18:hover{background-position: 0 -753px; border-color:#AEAEAE; color:#fff; *background-color:#B1B1B1;}
+
+/* 火狐下input字体不垂直居中 */
+/*input.btn_orange, input.btn_blue, input.btn_gray, input.btn_yellowish{padding-bottom:3px; *line-height:26px; _line-height:28px;}*/
+
+
+/**
+ * 图片类按钮
+**/ 
+
+/* 背景 */
+.btn_buy, .btn_hemai{background:url(../images/btn_ico.png) no-repeat; border: 0;  cursor:pointer; display:inline-block;}
+
+a.btn_buy, .btn_buy{height:45px; width:140px; background-position:0 0;}
+a.btn_buy:hover, .btn_buy:hover, .btn_buy_hover{background-position:0 -45px;}
+a.btn_buy_disabled, a.btn_buy_disabled:hover, .btn_buy_disabled:hover, .btn_buy_disabled{background-position:0 -90px;}
+
+a.btn_hemai, .btn_hemai{height:45px; width:140px; background-position:0 -135px;}
+a.btn_hemai:hover, .btn_hemai:hover, .btn_hemai_hover{background-position:0 -180px;}
+a.btn_hemai_disabled, a.btn_hemai_disabled:hover, .btn_hemai_disabled:hover, .btn_hemai_disabled{background-position:0 -225px;}
+192.168.18.16

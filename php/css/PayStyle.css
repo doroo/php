@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+html{
+	font-size:12px;
+}
+    
+fieldset{
+	width:400px; 
+	height: 160px;
+	margin: 0 auto;
+}
+
+legend{
+	text-align:left;
+	font-weight:bold; 
+	font-size:14px;
+}
+
+.label{
+	float:left; width:70px; margin-left:10px;
+}
+
+.left{
+	margin-left:80px;
+}
+
+.input{
+	width:150px;
+}
+
+span{
+	color: #666666;
+}
+	
+body {
+	
+}
+
+
+#wrap {
+	width:600px;
+	height:319px;
+	padding:20px;
+	margin:150px auto;
+	background:url(../img/dbg.png) no-repeat;
+}
+
+#wrap h3 {
+	text-align:center;
+	font-weight:bold; 
+	font-size:30px;
+	margin-top:20px;
+}
+
+#footer {
+	text-align:center;
+	align: bottom;
+	height:30px;
+	padding-top:5px;
+	margin: auto;
+}
+
+#footer a {
+	color:#AAC4C8;
+}
+
+.tbInfo{
+	margin-left:60px;
+}
+
+.tbInfo .td1{
+	width:100px;
+	padding-bottom:10px;
+}
+
+.tbInfo .td2{
+	width:300px;
+}
+
+.divmodify{
+	text-align: right; 
+	padding:5px 20px 10px 5px;
+}
+
+.tbInfo .td2 .iBorder{
+	border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

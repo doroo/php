@@ -79,7 +79,7 @@ $user = new UserInfo($username);
   	</div>
   	<script>
   	$(document).ready(function() {
-  		$("a[name='aModify']").click(function(){btn1.click();});
+  		$("a[name='aModify']").click(function(){$('#btn1').click();});
 
   	});
      </script>  
